@@ -1,0 +1,59 @@
+h1 {
+   width: 50%;
+}
+p {
+    text-align: justify;
+}
+img {
+    width: 15px;
+}
+.container-row{
+    display: flex;
+    flex-direction: row;
+}
+.container {
+    background-color: white;
+    width: 50%;
+    border: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.grid-container {
+    background-color: 98EECC;
+    width: 97%;
+    border: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#hasil-container {
+    text-align: center;
+}
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.input-hitung {
+    width: 40%;
+}
+.input-reset {
+    width: 20%;
+}
+#hasil {
+    font-size: xxx-large; 
+    color: grey;
+}
+
+/* #submit {
+    flex-direction: row;
+} */
