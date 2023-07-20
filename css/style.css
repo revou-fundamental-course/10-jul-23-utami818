@@ -7,6 +7,15 @@ p {
 img {
     width: 15px;
 }
+.image {
+    padding:20px 20px 60px 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image img{
+    width: 45%;
+    flex-direction: column;
+}
 .container-row{
     display: flex;
     flex-direction: row;
@@ -31,7 +40,19 @@ img {
     padding-right: 10px;
     padding-left: 10px;
 }
-#hasil-container {
+.hasil {
+    text-align: center;
+}
+.btn {
+    margin: 20px;
+    padding-left: 30%;
+    padding-right: 30%;
+    border: 10px;
+}
+.btn-download{
+    width: 100%;    
+}
+#peringatan-container {
     text-align: center;
 }
 .checkbox {
@@ -43,13 +64,25 @@ img {
     flex-direction: column;
     width: 80%;
 }
-.input-hitung {
+button {
+    background-color: #2CD3E1;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px;    
+}
+button:hover {
+    background-color: #79E0EE;
+    color: white;
+    border: 2px solid #2CD3E1;
+  }
+.btn-hitung {
     width: 40%;
 }
-.input-reset {
+.btn-reset {
     width: 20%;
 }
-#hasil {
+#outputHasil {
     font-size: xxx-large; 
     color: grey;
 }
