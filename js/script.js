@@ -22,7 +22,7 @@ submitButton.addEventListener("click", function(event){
     } else if (e >= 18.5 && e <=24.9){
         document.getElementById("outputStatus").innerHTML = "Normal(ideal)";
         document.getElementById("outputKeterangan").innerHTML = "Anda memiliki berat badan normal(ideal)";
-    } else if(e > 25.0 && e <=9){
+    } else if(e > 25.0 && e <=29.9){
         document.getElementById("outputStatus").innerHTML = "Kelebihan berat badan";
         document.getElementById("outputKeterangan").innerHTML = "kelebihan berat badan";
     } else if(e > 30.0){
@@ -39,7 +39,7 @@ function myFunction() {
 
 // validasi form kosong
 function nameValidation(inBerat, inUsia, inTinggi){
-    if (inBerat =="" || inUsia == "" || inTinggi == ""){
+    if (inBerat === "" || inUsia === "" || inTinggi === ""){
         alert("Masih ada yang kosong!");
     } else {
         alert("Hitung BMI berhasil");
@@ -51,8 +51,8 @@ function myFunction() {
     var text = document.getElementById("outputPria");
     var text1 = document.getElementById("outputWanita");
     if (ipria.checked == true){
-      text.display = "block";
+      text.style.display = "block";
     } else if(iwanita.checked == true){
-        text1.display = "block";
+        text1.style.display = "block";
     }
 }
